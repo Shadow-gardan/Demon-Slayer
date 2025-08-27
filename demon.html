@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color:#000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container{
+            display: flex;
+            gap: 0.7rem;
+            margin-top: 4.8rem;
+            border: none;
+        }
+
+        .img-box{
+            width: 7.5rem;
+            height: 30rem;
+            overflow: hidden;
+            transition: width 0.4s ease-in-out;
+        }
+
+        .img-box img{
+            width: 15rem;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.4s ease-in-out;
+        }
+
+        .img-box:hover{
+            width: 15rem;
+        }
+
+        .img-box:hover img{
+            transform: scaleX(1.05); 
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime</title>
+</head>
+<body>
+    <div class="container">
+        <div class="img-box"><img src="Tanjiro Wallpaper.jpg" alt=""></div>
+        <div class="img-box"><img src="Nezuko.jpg" alt=""></div>
+        <div class="img-box"><img src="imgage.jpg" alt=""></div>
+        <div class="img-box"><img src="Inosuke Hashibira.jpg" alt=""></div>
+        <div class="img-box"><img src="image.jpg" alt=""></div>
+        <div class="img-box"><img src="download (5).jpg" alt=""></div>
+        <div class="img-box"><img src="download (6).jpg" alt=""></div>
+        <div class="img-box"><img src="Sanemi Shinazugawa.jpg""></div>
+        <div class="img-box"><img src="Shinobu Kocho Wallpaper.jpg" alt=""></div>
+    </div>
+</body>
+</html>
